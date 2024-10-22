@@ -1,0 +1,16 @@
+// para chamar o arquivo do config usar o @use
+@use 'assets/sass/config';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    //para invluir o arquivo da pasta config usa o @include
+    @include config.font-paragraf;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
