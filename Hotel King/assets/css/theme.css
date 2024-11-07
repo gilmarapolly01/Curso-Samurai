@@ -1,22 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700;800;900&display=swap');
-@import './buttons.css';
+@import './backgroud.css';
+@import './colors.css';
 @import './navbar.css';
-@import './background-banner.css';
-@import './inputs.css';
+@import './buttons.css';
 @import './position.css';
-@import  './colors.css';
+@import './inputs.css';
+@import './carousel.css';
+@import './utils.css';
+@import './assessments.css';
+@import './card.css';
+@import './progress.css';
 
+/* Configurações de cores */
 :root {
-    --bg-orenge:        #F46A05;
-    --bg-orenge-hover:  #D85F08;
-    --bg-black:         #000000;
-    --bg-marron-1:      #757575;
-    --bg-marron-2:      #F4F4F4;
-    --bg-white:         #FFFFFF;
-    --bg-yellow:        #FCB705;
-    --bg-roxo:          #E9008C;
+    --bg-orange:            #F46A05;
+    --bg-orange-hover:      #d85f08;
+    --bg-black:             #000000;
+    --bg-marron-1:          #757575;
+    --bg-marron-2:          #F4F4F4;
+    --bg-white:             #FFFFFF;
+    --bg-yellow:            #FCB705;
+    --bg-roxo:              #E9008C;
 }
 
+/* Configurações do documento principal */
 html, body {
     font-size: 16px;
     font-family: 'Ruda', sans-serif;
